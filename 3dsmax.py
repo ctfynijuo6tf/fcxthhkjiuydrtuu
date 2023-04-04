@@ -42,9 +42,13 @@ kmi = km.keymap_items.new('wm.quit_blender', 'Q', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('wm.redraw_timer', 'T', 'PRESS', ctrl=True, alt=True)
 kmi = km.keymap_items.new('wm.debug_menu', 'D', 'PRESS', ctrl=True, alt=True)
 kmi = km.keymap_items.new('wm.search_menu', 'SPACE', 'PRESS')
+
+
 kmi = km.keymap_items.new('wm.call_menu', 'NDOF_BUTTON_MENU', 'PRESS')
 kmi.properties.name = 'USERPREF_MT_ndof_settings'
 kmi = km.keymap_items.new('wm.context_set_enum', 'F2', 'PRESS', shift=True)
+
+
 kmi.properties.data_path = 'area.type'
 kmi.properties.value = 'LOGIC_EDITOR'
 kmi = km.keymap_items.new('wm.context_set_enum', 'F3', 'PRESS', shift=True, ctrl=True)
