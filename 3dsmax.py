@@ -1,6 +1,9 @@
 # Configuration 3dsmax
+
 import bpy
 
+
+       
 wm = bpy.context.window_manager
 kc = wm.keyconfigs.new('3dsmax')
 
