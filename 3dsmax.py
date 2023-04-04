@@ -23,10 +23,13 @@ kmi = km.keymap_items.new('wm.open_mainfile', 'O', 'PRESS', ctrl=True)
 
 kmi = km.keymap_items.new('wm.open_mainfile', 'F1', 'PRESS')
 kmi = km.keymap_items.new('wm.link', 'O', 'PRESS', ctrl=True, alt=True)
+
+
 kmi = km.keymap_items.new('wm.append', 'F1', 'PRESS', shift=True)
 kmi.properties.link = False
 kmi.properties.instance_groups = False
 kmi = km.keymap_items.new('wm.save_mainfile', 'S', 'PRESS', ctrl=True)
+
 kmi = km.keymap_items.new('wm.save_mainfile', 'W', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('wm.save_as_mainfile', 'S', 'PRESS', shift=True, ctrl=True)
 kmi = km.keymap_items.new('wm.save_as_mainfile', 'F2', 'PRESS')
