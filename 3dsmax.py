@@ -33,15 +33,21 @@ kmi.properties.instance_groups = False
 kmi = km.keymap_items.new('wm.save_mainfile', 'S', 'PRESS', ctrl=True)
 
 kmi = km.keymap_items.new('wm.save_mainfile', 'W', 'PRESS', ctrl=True)
+
+
 kmi = km.keymap_items.new('wm.save_as_mainfile', 'S', 'PRESS', shift=True, ctrl=True)
 kmi = km.keymap_items.new('wm.save_as_mainfile', 'F2', 'PRESS')
 kmi = km.keymap_items.new('wm.save_as_mainfile', 'S', 'PRESS', ctrl=True, alt=True)
 kmi.properties.copy = True
 kmi = km.keymap_items.new('wm.window_fullscreen_toggle', 'F11', 'PRESS', alt=True)
+
 kmi = km.keymap_items.new('wm.quit_blender', 'Q', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('wm.redraw_timer', 'T', 'PRESS', ctrl=True, alt=True)
 kmi = km.keymap_items.new('wm.debug_menu', 'D', 'PRESS', ctrl=True, alt=True)
+
+
 kmi = km.keymap_items.new('wm.search_menu', 'SPACE', 'PRESS')
+
 
 
 kmi = km.keymap_items.new('wm.call_menu', 'NDOF_BUTTON_MENU', 'PRESS')
